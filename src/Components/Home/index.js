@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MdFlightTakeoff } from 'react-icons/md';
+// import { useDispatch } from 'react-redux';
 
 import './style.css';
 import api from '../../Services/api';
@@ -9,6 +10,8 @@ import api from '../../Services/api';
 
 const Home = () => {
     const [trips, setTrips] = useState([]);
+    // const dispatch = useDispatch();
+
 
     useEffect(()=>{
         async function loadApi(){

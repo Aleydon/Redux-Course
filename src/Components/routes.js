@@ -15,7 +15,7 @@ const Routes = () => {
             <Route exact path="/" component={Home} />
             <Route  exact path="/reservas" component={Reservations} />
             <Route  path="*" component={NotFound} />
-        </Switch>
+        </Switch> 
     );
 }
 
